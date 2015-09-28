@@ -6,6 +6,7 @@ public class DinosaurSupervisor {
 
         Dinosaur t_rex = new Dinosaur();
         Dinosaur velociraptor = new Dinosaur();
+        //Create dinosaur and call the method roar
         Dinosaur diplodocus = new Dinosaur();
 
         t_rex.roar();
