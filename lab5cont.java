@@ -11,20 +11,19 @@ public class lab5cont {
         int penny = 1;
         int combo = 0;
 
-        for (int p = 0; p <= 100; p++){
-            for(int n = 0; n <= 20; n++){
-                for (int d = 0; d <=10; d++){
-                    for (int q = 0 ; q <= 4; q++) {
+        for (int p = 0; p <= 100; p++) {
+            for (int n = 0; n <= 20; n++) {
+                for (int d = 0; d <= 10; d++) {
+                    for (int q = 0; q <= 4; q++) {
                         if (p * penny + n * nickel + d * dime + q * quarter == dollar) {
                             combo++;
                         }
                     }
-                    System.out.println("The total combination is " + combo);
-
                 }
-
+            }
+        }
+                    System.out.println("The total combination is " + combo);
             }
         }
 
-    }
-}
+
