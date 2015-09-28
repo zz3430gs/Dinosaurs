@@ -4,9 +4,9 @@ public class DinosaurSupervisor {
 
     public static void main(String[] args){
 
+        //Create dinosaur and call the method roar
         Dinosaur t_rex = new Dinosaur();
         Dinosaur velociraptor = new Dinosaur();
-        //Create dinosaur and call the method roar
         Dinosaur diplodocus = new Dinosaur();
 
         t_rex.roar();
